@@ -1,0 +1,111 @@
+body{
+     
+box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+hr{
+    height: 3.3em;
+    margin-left: 60px;
+    
+}
+.navigation-bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 90px;
+    padding: 10px 20px;
+    margin-bottom: -20px;
+    background-attachment: absolute;
+   
+}
+/* ackground-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+ */
+
+.list{
+margin-right: 30px;
+    
+}
+ul{
+
+    margin-right: 60em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+li a{
+
+    text-decoration: none;
+    padding: 1em;
+   font-size: 1.3em;
+   color: white;
+}
+img{
+
+    background-color: black;
+    color: wheat;
+    
+}
+.img{
+margin-left: 20px;
+}
+.main-content{
+     
+    background-image: url(bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center;
+   
+    
+}
+
+h2{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 172px;
+max-width: 846px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #ffffff;
+
+}
+/* max-width property defines the maximum width of an element */
+/* The line-height property specifies the height of a line */
+p{
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.token{
+    width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.token-btn{
+    margin-left: -180px;
+}
+button{
+    padding: 20px;
+    font-family: poppins;
+    font-size: 1.2em;
+    background-color: darkmagenta;
+    border-style: none;
+    border-radius: 20px;    
+    color: white;
+}
